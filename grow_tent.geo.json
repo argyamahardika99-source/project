@@ -1,0 +1,789 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.nirvana_grow_tent",
+        "texture_width": 64,
+        "texture_height": 64,
+        "visible_bounds_width": 2.6,
+        "visible_bounds_height": 2.8,
+        "visible_bounds_offset": [0, 1.3, 0]
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [0, 0, 0]
+        },
+
+        {
+          "name": "frame",
+          "parent": "root",
+          "pivot": [0, 0, 0],
+          "cubes": [
+
+            {
+              "origin": [-16,0,-16],
+              "size": [32,1,32],
+              "uv": [0,0]
+            },
+
+            {
+              "origin": [-16,31,-16],
+              "size": [32,1,32],
+              "uv": [0,33]
+            },
+
+            {
+              "origin": [-16,1,-16],
+              "size": [1,30,1],
+              "uv": [0,0]
+            },
+
+            {
+              "origin": [15,1,-16],
+              "size": [1,30,1],
+              "uv": [0,0]
+            },
+
+            {
+              "origin": [-16,1,15],
+              "size": [1,30,1],
+              "uv": [0,0]
+            },
+
+            {
+              "origin": [15,1,15],
+              "size": [1,30,1],
+              "uv": [0,0]
+            },
+
+            {
+              "origin": [-15,31,-16],
+              "size": [30,1,1],
+              "uv": [2,0]
+            },
+
+            {
+              "origin": [-15,31,15],
+              "size": [30,1,1],
+              "uv": [2,0]
+            },
+
+            {
+              "origin": [-16,31,-15],
+              "size": [1,1,30],
+              "uv": [2,0]
+            },
+
+            {
+              "origin": [15,31,-15],
+              "size": [1,1,30],
+              "uv": [2,0]
+            }
+
+          ]
+        },
+
+        {
+          "name": "body",
+          "parent": "root",
+          "pivot": [0,0,0],
+          "cubes": [
+
+            {
+              "origin": [-15.5,1,-15.4],
+              "size": [31,30,0.4],
+              "uv": [0,40]
+            },
+
+            {
+              "origin": [-15.5,1,15],
+              "size": [31,30,0.4],
+              "uv": [0,40]
+            },
+
+            {
+              "origin": [-15.4,1,-15],
+              "size": [0.4,30,30],
+              "uv": [32,40]
+            },
+
+            {
+              "origin": [15,1,-15],
+              "size": [0.4,30,30],
+              "uv": [32,40]
+            }
+
+          ]
+        },
+
+        {
+          "name": "door",
+          "parent": "root",
+          "pivot": [-15.5,0,-15.4]
+        },
+
+        {
+          "name": "interior",
+          "parent": "root",
+          "pivot": [0,0,0]
+        },
+
+        {
+          "name": "attachments",
+          "parent": "root",
+          "pivot": [0,0,0]
+        }
+        {
+          "name": "door",
+          "parent": "root",
+          "pivot": [-15.5,0,-15.35],
+          "rotation":[0,-90,0],
+          "cubes":[
+
+            {
+              "origin":[-15.5,1,-15.5],
+              "size":[31,30,0.4],
+              "uv":[0,0]
+            },
+
+            {
+              "origin":[-13,15,-15.8],
+              "size":[20,10,0.3],
+              "uv":[0,31]
+            },
+
+            {
+              "origin":[-13.3,14.7,-15.9],
+              "size":[20.6,10.6,0.15],
+              "uv":[22,31]
+            }
+
+          ]
+        },
+
+        {
+          "name":"window_cover",
+          "parent":"door",
+          "pivot":[0,20,-15.2],
+          "rotation":[0,0,0],
+          "cubes":[
+
+            {
+              "origin":[-13.5,14.5,-16.2],
+              "size":[21,11,0.25],
+              "uv":[0,43]
+            },
+
+            {
+              "origin":[-13.5,25.2,-16.3],
+              "size":[21,0.5,0.4],
+              "uv":[0,56]
+            }
+
+          ]
+        },
+
+        {
+          "name":"zipper",
+          "parent":"door",
+          "pivot":[0,0,0],
+          "cubes":[
+
+            {
+              "origin":[0.1,4,-15.75],
+              "size":[0.3,22,0.2],
+              "uv":[44,0]
+            },
+
+            {
+              "origin":[-10,26,-15.75],
+              "size":[10.3,0.3,0.2],
+              "uv":[46,0]
+            },
+
+            {
+              "origin":[0.1,26,-15.75],
+              "size":[10.3,0.3,0.2],
+              "uv":[46,0]
+            },
+
+            {
+              "origin":[-0.2,15,-15.95],
+              "size":[0.8,1.4,0.35],
+              "uv":[58,0]
+            }
+
+          ]
+        },
+
+        {
+          "name":"door_seam",
+          "parent":"door",
+          "pivot":[0,0,0],
+          "cubes":[
+
+            {
+              "origin":[-15.6,1,-15.7],
+              "size":[0.2,30,0.2],
+              "uv":[60,0]
+            },
+
+            {
+              "origin":[15.4,1,-15.7],
+              "size":[0.2,30,0.2],
+              "uv":[60,0]
+            },
+
+            {
+              "origin":[-15.5,30.8,-15.7],
+              "size":[31,0.2,0.2],
+              "uv":[60,2]
+            }
+
+          ]
+        },
+
+        {
+          "name":"bottom_fold",
+          "parent":"body",
+          "pivot":[0,0,0],
+          "cubes":[
+
+            {
+              "origin":[-15.7,0.8,-15.6],
+              "size":[31.4,0.6,31.2],
+              "uv":[0,58]
+            }
+
+          ]
+        },
+
+        {
+          "name":"top_fold",
+          "parent":"body",
+          "pivot":[0,31,0],
+          "cubes":[
+
+            {
+              "origin":[-15.7,30.4,-15.6],
+              "size":[31.4,0.6,31.2],
+              "uv":[0,60]
+            }
+
+          ]
+        },
+
+        {
+          "name":"front_handle",
+          "parent":"door",
+          "pivot":[11,20,-15.5],
+          "cubes":[
+
+            {
+              "origin":[10.5,18,-16.0],
+              "size":[1,4,0.4],
+              "uv":[56,8]
+            }
+
+          ]
+        },
+
+        {
+          "name":"logo_patch",
+          "parent":"door",
+          "pivot":[0,28,-15.4],
+          "cubes":[
+
+            {
+              "origin":[-5,27,-15.9],
+              "size":[10,2.5,0.2],
+              "uv":[0,62]
+            }
+
+          ]
+        },
+        {
+          "name": "duct_left",
+          "parent": "attachments",
+          "pivot": [-12,26,15],
+          "cubes":[
+
+            {
+              "origin":[-13,24.5,15],
+              "size":[2,2,1],
+              "uv":[0,48]
+            },
+
+            {
+              "origin":[-13.5,24,15.8],
+              "size":[3,3,0.5],
+              "uv":[6,48]
+            },
+
+            {
+              "origin":[-12.8,24.7,16.2],
+              "size":[1.6,1.6,1.2],
+              "uv":[14,48]
+            }
+
+          ]
+        },
+
+        {
+          "name":"duct_right",
+          "parent":"attachments",
+          "pivot":[12,26,15],
+          "cubes":[
+
+            {
+              "origin":[11,24.5,15],
+              "size":[2,2,1],
+              "uv":[0,52]
+            },
+
+            {
+              "origin":[10.5,24,15.8],
+              "size":[3,3,0.5],
+              "uv":[6,52]
+            },
+
+            {
+              "origin":[11.2,24.7,16.2],
+              "size":[1.6,1.6,1.2],
+              "uv":[14,52]
+            }
+
+          ]
+        },
+
+        {
+          "name":"vent_left",
+          "parent":"attachments",
+          "pivot":[-13,8,-15],
+          "cubes":[
+
+            {
+              "origin":[-14,6,-15.6],
+              "size":[6,6,0.3],
+              "uv":[20,48]
+            },
+
+            {
+              "origin":[-14,11.8,-15.8],
+              "size":[6,0.4,0.5],
+              "uv":[28,48]
+            }
+
+          ]
+        },
+
+        {
+          "name":"vent_right",
+          "parent":"attachments",
+          "pivot":[8,8,-15],
+          "cubes":[
+
+            {
+              "origin":[8,6,-15.6],
+              "size":[6,6,0.3],
+              "uv":[20,55]
+            },
+
+            {
+              "origin":[8,11.8,-15.8],
+              "size":[6,0.4,0.5],
+              "uv":[28,55]
+            }
+
+          ]
+        },
+
+        {
+          "name":"floor_tray",
+          "parent":"interior",
+          "pivot":[0,0,0],
+          "cubes":[
+
+            {
+              "origin":[-14,1,-14],
+              "size":[28,1,28],
+              "uv":[0,0]
+            },
+
+            {
+              "origin":[-14,2,-14],
+              "size":[1,2,28],
+              "uv":[0,29]
+            },
+
+            {
+              "origin":[13,2,-14],
+              "size":[1,2,28],
+              "uv":[0,29]
+            },
+
+            {
+              "origin":[-13,2,-14],
+              "size":[26,2,1],
+              "uv":[2,29]
+            },
+
+            {
+              "origin":[-13,2,13],
+              "size":[26,2,1],
+              "uv":[2,29]
+            }
+
+          ]
+        },
+
+        {
+          "name":"handle_left",
+          "parent":"body",
+          "pivot":[-15,18,0],
+          "cubes":[
+
+            {
+              "origin":[-15.7,17,-2],
+              "size":[0.4,4,4],
+              "uv":[40,48]
+            }
+
+          ]
+        },
+
+        {
+          "name":"handle_right",
+          "parent":"body",
+          "pivot":[15,18,0],
+          "cubes":[
+
+            {
+              "origin":[15.3,17,-2],
+              "size":[0.4,4,4],
+              "uv":[46,48]
+            }
+
+          ]
+        },
+
+        {
+          "name":"corner_reinforcement",
+          "parent":"body",
+          "pivot":[0,0,0],
+          "cubes":[
+
+            {
+              "origin":[-15.8,29.5,-15.8],
+              "size":[1,1,1],
+              "uv":[52,48]
+            },
+
+            {
+              "origin":[14.8,29.5,-15.8],
+              "size":[1,1,1],
+              "uv":[52,48]
+            },
+
+            {
+              "origin":[-15.8,29.5,14.8],
+              "size":[1,1,1],
+              "uv":[52,48]
+            },
+
+            {
+              "origin":[14.8,29.5,14.8],
+              "size":[1,1,1],
+              "uv":[52,48]
+            }
+
+          ]
+        },
+        {
+          "name":"led_panel",
+          "parent":"interior",
+          "pivot":[0,29,0],
+          "cubes":[
+
+            {
+              "origin":[-10,28,-8],
+              "size":[20,1,16],
+              "uv":[0,0]
+            },
+
+            {
+              "origin":[-9.5,27.7,-7.5],
+              "size":[19,0.3,15],
+              "uv":[0,17]
+            }
+
+          ]
+        },
+
+        {
+          "name":"rope_left",
+          "parent":"interior",
+          "pivot":[-6,31,-4],
+          "cubes":[
+
+            {
+              "origin":[-6.1,28.8,-4.1],
+              "size":[0.2,2.2,0.2],
+              "uv":[40,0]
+            },
+
+            {
+              "origin":[-6.3,28.5,-4.3],
+              "size":[0.6,0.6,0.6],
+              "uv":[42,0]
+            }
+
+          ]
+        },
+
+        {
+          "name":"rope_right",
+          "parent":"interior",
+          "pivot":[6,31,-4],
+          "cubes":[
+
+            {
+              "origin":[5.9,28.8,-4.1],
+              "size":[0.2,2.2,0.2],
+              "uv":[40,0]
+            },
+
+            {
+              "origin":[5.7,28.5,-4.3],
+              "size":[0.6,0.6,0.6],
+              "uv":[42,0]
+            }
+
+          ]
+        },
+
+        {
+          "name":"carbon_filter",
+          "parent":"interior",
+          "pivot":[0,30,10],
+          "cubes":[
+
+            {
+              "origin":[-4,27,8],
+              "size":[8,4,4],
+              "uv":[0,20]
+            },
+
+            {
+              "origin":[-4.5,27.5,7.5],
+              "size":[9,3,5],
+              "uv":[16,20]
+            }
+
+          ]
+        },
+
+        {
+          "name":"inline_fan",
+          "parent":"interior",
+          "pivot":[8,29,10],
+          "cubes":[
+
+            {
+              "origin":[4,27.5,8],
+              "size":[4,4,4],
+              "uv":[32,20]
+            },
+
+            {
+              "origin":[8,28.2,9],
+              "size":[5,2.6,2],
+              "uv":[40,20]
+            }
+
+          ]
+        },
+
+        {
+          "name":"flexible_duct",
+          "parent":"interior",
+          "pivot":[13,29,10],
+          "cubes":[
+
+            { "origin":[13,28.4,9],"size":[2,2,2],"uv":[48,20] },
+            { "origin":[15,28.2,9],"size":[2,2,2],"uv":[50,20] },
+            { "origin":[17,28.4,9],"size":[2,2,2],"uv":[52,20] }
+
+          ]
+        },
+
+        {
+          "name":"fabric_pot",
+          "parent":"interior",
+          "pivot":[0,1,0],
+          "cubes":[
+
+            {
+              "origin":[-6,1,-6],
+              "size":[12,6,12],
+              "uv":[0,40]
+            },
+
+            {
+              "origin":[-6,7,-6],
+              "size":[12,1,12],
+              "uv":[24,40]
+            }
+
+          ]
+        },
+
+        {
+          "name":"soil",
+          "parent":"fabric_pot",
+          "pivot":[0,0,0],
+          "cubes":[
+
+            {
+              "origin":[-5.5,6.2,-5.5],
+              "size":[11,1,11],
+              "uv":[0,54]
+            }
+
+          ]
+        },
+
+        {
+          "name":"plant_anchor",
+          "parent":"soil",
+          "pivot":[0,7,0],
+          "cubes":[
+
+            {
+              "origin":[-0.5,7,-0.5],
+              "size":[1,1,1],
+              "uv":[24,54]
+            }
+
+          ]
+        },
+        {
+          "name": "rear_vents",
+          "parent": "attachments",
+          "pivot": [0,0,15],
+          "cubes": [
+
+            {
+              "origin": [-12,8,15.2],
+              "size": [6,6,0.3],
+              "uv": [0,56]
+            },
+
+            {
+              "origin": [6,8,15.2],
+              "size": [6,6,0.3],
+              "uv": [8,56]
+            }
+
+          ]
+        },
+
+        {
+          "name": "cable_port",
+          "parent": "attachments",
+          "pivot": [-13,28,15],
+          "cubes": [
+
+            {
+              "origin": [-14,27,15.2],
+              "size": [2,2,0.8],
+              "uv": [16,56]
+            },
+
+            {
+              "origin": [-14.5,26.5,15.8],
+              "size": [3,3,0.3],
+              "uv": [20,56]
+            }
+
+          ]
+        },
+
+        {
+          "name": "corner_pads",
+          "parent": "body",
+          "pivot": [0,0,0],
+          "cubes": [
+
+            {"origin":[-15.6,0.5,-15.6],"size":[1,2,1],"uv":[24,56]},
+            {"origin":[14.6,0.5,-15.6],"size":[1,2,1],"uv":[24,56]},
+            {"origin":[-15.6,0.5,14.6],"size":[1,2,1],"uv":[24,56]},
+            {"origin":[14.6,0.5,14.6],"size":[1,2,1],"uv":[24,56]}
+
+          ]
+        },
+
+        {
+          "name": "roof_bevel",
+          "parent": "body",
+          "pivot": [0,31,0],
+          "cubes": [
+
+            {
+              "origin": [-15.8,30.5,-15.8],
+              "size": [31.6,0.4,31.6],
+              "inflate": 0.15,
+              "uv": [32,56]
+            }
+
+          ]
+        },
+
+        {
+          "name": "logo_patch",
+          "parent": "door",
+          "pivot": [0,29,-15.5],
+          "cubes": [
+
+            {
+              "origin": [-6,27.5,-15.85],
+              "size": [12,2,0.15],
+              "uv": [0,60]
+            }
+
+          ]
+        },
+
+        {
+          "name": "inner_reflective_wall",
+          "parent": "interior",
+          "pivot": [0,0,0],
+          "cubes": [
+
+            {
+              "origin": [-15,1,-14.8],
+              "size": [30,30,0.1],
+              "uv": [16,60]
+            },
+
+            {
+              "origin": [-14.8,1,-15],
+              "size": [0.1,30,30],
+              "uv": [16,60]
+            },
+
+            {
+              "origin": [14.7,1,-15],
+              "size": [0.1,30,30],
+              "uv": [16,60]
+            }
+
+          ]
+        }
+
+      ]
+    }
+  ]
+}
